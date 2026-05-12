@@ -102,8 +102,8 @@ nav {
 }
 
 .logo {
-    height: 85px;
-    width: 220px;
+    height: 100px;
+    width: 350px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -114,7 +114,7 @@ nav {
 }
 
 .logo img {
-    height: 400px; /* Huge size to zoom in on the center */
+    height: 350px; /* Recalibrated zoom to fit the full width */
     width: auto;
     object-fit: contain;
     transition: var(--transition);
