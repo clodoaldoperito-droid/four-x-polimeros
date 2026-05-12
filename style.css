@@ -102,8 +102,10 @@ nav {
 }
 
 .logo img {
-    height: 65px;
-    filter: drop-shadow(0 0 15px rgba(255,255,255,0.15));
+    height: 100px;
+    width: auto;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 20px rgba(255,255,255,0.2));
     transition: var(--transition);
 }
 
