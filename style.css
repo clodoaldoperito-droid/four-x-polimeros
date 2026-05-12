@@ -114,7 +114,7 @@ nav {
 }
 
 .logo img {
-    height: 350px; /* Recalibrated zoom to fit the full width */
+    height: 220px; /* Reduced zoom so the full name fits perfectly */
     width: auto;
     object-fit: contain;
     transition: var(--transition);
