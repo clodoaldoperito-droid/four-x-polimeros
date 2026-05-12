@@ -101,11 +101,22 @@ nav {
     align-items: center;
 }
 
+.logo {
+    height: 85px;
+    width: 220px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
 .logo img {
-    height: 100px;
+    height: 400px; /* Huge size to zoom in on the center */
     width: auto;
-    border-radius: 8px;
-    filter: drop-shadow(0 0 20px rgba(255,255,255,0.2));
+    object-fit: contain;
     transition: var(--transition);
 }
 
